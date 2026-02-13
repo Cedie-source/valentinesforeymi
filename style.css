@@ -295,32 +295,159 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 20px 0;
+  }
+
+  .valentine-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+  .button-container {
+    gap: 15px;
+  }
+
+  .valentine-container {
+    bottom: 30px;
+    padding: 0 15px;
+  }
+
+  .valentine-box {
+    padding: 15px;
+  }
+
+  .love-message {
+    padding: 10px;
+  }
+
   .message-content {
-    padding: 2rem 1.5rem 5rem 1.5rem;
+    padding: 2rem 1rem 4rem 1rem;
     max-width: 100%;
     margin: 1rem auto;
+    border-radius: 10px;
   }
   
   .message-content h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
   }
   
   .message-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
   
   .message-content strong {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .signature {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .heart {
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 1.8rem;
+    margin: 0.8rem 0;
+  }
+
+  .btn-back {
+    top: 15px;
+    left: 15px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .floating-heart {
+    font-size: 1rem;
+  }
+
+  .flowers {
+    transform: scale(0.75);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px 0;
+  }
+
+  .valentine-title {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .button-container {
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .valentine-box {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .valentine-container {
+    bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .message-content {
+    padding: 1.5rem 1rem 3.5rem 1rem;
+    margin: 0.5rem auto;
+  }
+
+  .message-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .message-content p {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+  }
+
+  .signature {
+    font-size: 1rem;
+  }
+
+  .heart {
+    font-size: 1.5rem;
+    margin: 0.7rem 0;
+  }
+
+  .btn-back {
+    top: 12px;
+    left: 12px;
+    padding: 7px 12px;
+    font-size: 0.8rem;
+  }
+
+  .floating-heart {
+    font-size: 0.8rem;
+  }
+
+  .flowers {
+    transform: scale(0.6);
   }
 }
 
