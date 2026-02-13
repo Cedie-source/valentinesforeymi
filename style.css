@@ -297,6 +297,7 @@ body {
 @media (max-width: 768px) {
   body {
     padding: 15px 0;
+    align-items: center;
   }
 
   .valentine-title {
@@ -372,14 +373,16 @@ body {
   }
 
   .flowers {
-    transform: scale(0.6);
-    margin-bottom: -70px;
+    transform: scale(0.58);
+    margin-bottom: 0;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 480px) {
   body {
     padding: 5px 0;
+    align-items: center;
   }
 
   .valentine-title {
@@ -462,8 +465,9 @@ body {
   }
 
   .flowers {
-    transform: scale(0.5);
-    margin-bottom: -80px;
+    transform: scale(0.42);
+    margin-top: 20px;
+    margin-bottom: 0;
   }
 }
 
